@@ -5,21 +5,21 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mid Exam Prepare", "Mid Exam Prepare\Mid Exam Prepare.csproj", "{78562008-87DB-4A2F-A771-0E8660517A32}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 1 - Computer Store", "Problem 1 - Computer Store\Problem 1 - Computer Store.csproj", "{8530E7D3-9DE2-4BD7-BDA1-7B93B1DB285F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01.Computer Store", "Problem 1 - Computer Store\E01.Computer Store.csproj", "{8530E7D3-9DE2-4BD7-BDA1-7B93B1DB285F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 2. Shoot for the Win", "Problem 2. Shoot for the Win\Problem 2. Shoot for the Win.csproj", "{CE3D315B-624B-4A42-8F01-AC0B6759E834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E02.Shoot for the Win", "Problem 2. Shoot for the Win\E02.Shoot for the Win.csproj", "{CE3D315B-624B-4A42-8F01-AC0B6759E834}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 3 - Memory game", "Problem 3 - Memory game\Problem 3 - Memory game.csproj", "{0A9F43D6-4563-41E1-810E-D00D1F0CDE3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E03.Memory Game", "Problem 3 - Memory game\E03.Memory Game.csproj", "{0A9F43D6-4563-41E1-810E-D00D1F0CDE3C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Man O War", "Man O War\Man O War.csproj", "{04E7429C-05F8-4B18-85EC-4E92953628A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E04.Man O War", "Man O War\E04.Man O War.csproj", "{04E7429C-05F8-4B18-85EC-4E92953628A6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MU Online", "MU Online\MU Online.csproj", "{BBB9B8D8-505E-43F2-968E-28E141DCA1D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E05.MU Online", "MU Online\E05.MU Online.csproj", "{BBB9B8D8-505E-43F2-968E-28E141DCA1D1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counter Strike", "Counter Strike\Counter Strike.csproj", "{27577FE4-F8AE-430D-9AB0-5794EC3139C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E06.Counter Strike", "Counter Strike\E06.Counter Strike.csproj", "{27577FE4-F8AE-430D-9AB0-5794EC3139C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moving Target", "Moving Target\Moving Target.csproj", "{F6F900DD-1C78-4A44-9AFF-31BA0CAFBE97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E08.Moving Target", "Moving Target\E08.Moving Target.csproj", "{F6F900DD-1C78-4A44-9AFF-31BA0CAFBE97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Print Numbers in Reverse Order", "2. Print Numbers in Reverse Order\2. Print Numbers in Reverse Order.csproj", "{A0E050AA-2B54-4173-9228-840D6504487D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E07.Print Numbers in Reverse Order", "2. Print Numbers in Reverse Order\E07.Print Numbers in Reverse Order.csproj", "{A0E050AA-2B54-4173-9228-840D6504487D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
