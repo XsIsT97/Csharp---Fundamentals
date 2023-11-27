@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace _03.RoundingNumbers
 {
@@ -6,7 +7,19 @@ namespace _03.RoundingNumbers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            double[] numbers = Console.ReadLine()
+                .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                .Select(double.Parse)
+                .ToArray();
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (numbers[i] == 0)
+                {
+                    numbers[i] = 0;
+                }
+                Console.WriteLine($"{(decimal)numbers[i]} => {Math.Round((decimal)numbers[i], MidpointRounding.AwayFromZero)}");
+            }
         }
     }
 }

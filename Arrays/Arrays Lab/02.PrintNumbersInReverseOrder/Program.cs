@@ -6,7 +6,18 @@ namespace _02.PrintNumbersInReverseOrder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int n = int.Parse(Console.ReadLine());
+
+            int[] num = new int[n];
+            for (int j = 0; j < num.Length; j++)
+            {
+                num[j] = int.Parse(Console.ReadLine());
+            }
+
+            for (int i = num.Length - 1; i >= 0; i--)
+            {
+                Console.Write($"{num[i]} ");
+            }
         }
     }
 }

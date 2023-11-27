@@ -6,7 +6,25 @@ namespace _01.DayOfWeek
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int dayNumber = int.Parse(Console.ReadLine());
+
+            string[] day =
+                {   "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                };
+            if (dayNumber >= 1 && dayNumber <= day.Length)
+            {
+                Console.WriteLine(day[dayNumber - 1]);
+            }
+            else
+            {
+                Console.WriteLine("Invalid day!");
+            }
         }
     }
 }
