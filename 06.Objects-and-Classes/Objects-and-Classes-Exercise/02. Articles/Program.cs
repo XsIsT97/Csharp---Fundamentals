@@ -1,57 +1,52 @@
 ﻿using System;
-using System.Linq;
 
 namespace _02._Articles
 {
     class Article
     {
-        public Article(string edit, string changeAuthor, string rename)
-        {
-            this.Content = edit;
-            this.Author = changeAuthor;
-            this.Title = rename;
-        }
-
         public string Title { get; set; }
         public string Content { get; set; }
         public string Author { get; set; }
-
-        public override string ToString()
+        public void Edit(string newContent)
         {
-            return $"{Title} - {Content}: {Author}";
+            this.Content = newContent;
+        }
+        public void ChangeAuthor(string newAuthor)
+        {
+            this.Author = newAuthor;
+        }
+        public void Rename(string newTitle)
+        {
+            this.Title = newTitle;
         }
     }
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            string numberOfCommands = Console.ReadLine();
-
-            string[] command = numberOfCommands
-                .Split(' ', StringSplitOptions.RemoveEmptyEntries)
-                .ToArray();
-
-            for (int i = 1; i <= numberOfCommands.Length; i++)
+            string[] command = Console.ReadLine().Split(", ");
+            int n = int.Parse(Console.ReadLine());
+            Article article = new Article();
+            article.Title = command[0];
+            article.Content = command[1];
+            article.Author = command[2];
+            for (int i = 0; i < n; i++)
             {
-                string actions = command[0];
-                string change1 = command[1];
-                string change2 = command[2];
-
-                Article article = new Article(actions, change1, change2);
-
-                if (actions == "Edit:")
+                string[] input = Console.ReadLine().Split(": ");
+                switch (input[0])
                 {
-                    
-                }
-                else if (actions == "ChangeAuthor:")
-                {
-                    
-                }
-                else if (actions == "Rename:")
-                {
-                    
+                    case "Edit":
+                        article.Edit(input[1]);
+                        break;
+                    case "ChangeAuthor":
+                        article.ChangeAuthor(input[1]);
+                        break;
+                    case "Rename":
+                        article.Rename(input[1]);
+                        break;
                 }
             }
+            Console.WriteLine($"{article.Title} - {article.Content}: {article.Author}");
         }
     }
 }
