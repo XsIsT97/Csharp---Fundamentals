@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=C#-Fundamentals&fontSize=90" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=Csharp-Fundamentals&fontSize=90" />
 
 1. [**Basic Syntax, Conditional Statements and Loops**](https://github.com/XsIsT97/Csharp---Fundamentals/tree/main/01.Basic%20Syntax)
 2. [**Data Types and Variables**](https://github.com/XsIsT97/Csharp---Fundamentals/tree/main/02.Data%20Types%20and%20Variables)
